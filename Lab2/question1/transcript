@@ -1,0 +1,25 @@
+# Compile of halfAdder.v was successful.
+# Compile of halfAdderDataFlow.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.halfAdder
+# vsim -gui work.halfAdder 
+# Start time: 14:25:00 on Sep 27,2021
+# Loading work.halfAdder
+add wave -position insertpoint  \
+sim:/halfAdder/a \
+sim:/halfAdder/b \
+sim:/halfAdder/sum \
+sim:/halfAdder/cout
+force -freeze sim:/halfAdder/a 0 0
+force -freeze sim:/halfAdder/b 0 0
+run
+force -freeze sim:/halfAdder/a 0 0
+force -freeze sim:/halfAdder/b 1 0
+run
+force -freeze sim:/halfAdder/a 1 0
+run
+force -freeze sim:/halfAdder/a 1 0
+force -freeze sim:/halfAdder/b 0 0
+run
+# End time: 14:32:37 on Sep 27,2021, Elapsed time: 0:07:37
+# Errors: 0, Warnings: 2

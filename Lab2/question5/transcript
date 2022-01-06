@@ -1,0 +1,99 @@
+# Compile of majorityFucntion.v was successful.
+vsim -gui work.moduleName
+# vsim -gui work.moduleName 
+# Start time: 15:16:40 on Sep 27,2021
+# Loading work.moduleName
+add wave -position insertpoint  \
+sim:/moduleName/a \
+sim:/moduleName/b \
+sim:/moduleName/c \
+sim:/moduleName/d \
+sim:/moduleName/y \
+sim:/moduleName/aPb \
+sim:/moduleName/aPc \
+sim:/moduleName/aPd \
+sim:/moduleName/bPc \
+sim:/moduleName/bPd \
+sim:/moduleName/cPd
+force -freeze sim:/moduleName/a 0 0
+force -freeze sim:/moduleName/b 0 0
+force -freeze sim:/moduleName/c 0 0
+force -freeze sim:/moduleName/d 0 0
+run
+force -freeze sim:/moduleName/a 0 0
+force -freeze sim:/moduleName/b 0 0
+force -freeze sim:/moduleName/c 0 0
+force -freeze sim:/moduleName/d 1 0
+run
+force -freeze sim:/moduleName/a 0 0
+force -freeze sim:/moduleName/b 0 0
+force -freeze sim:/moduleName/c 1 0
+force -freeze sim:/moduleName/d 0 0
+run
+force -freeze sim:/moduleName/a 0 0
+force -freeze sim:/moduleName/b 0 0
+force -freeze sim:/moduleName/c 1 0
+force -freeze sim:/moduleName/d 1 0
+run
+force -freeze sim:/moduleName/a 0 0
+force -freeze sim:/moduleName/b 1 0
+force -freeze sim:/moduleName/c 0 0
+force -freeze sim:/moduleName/d 0 0
+run
+force -freeze sim:/moduleName/a 0 0
+force -freeze sim:/moduleName/b 1 0
+force -freeze sim:/moduleName/c 0 0
+force -freeze sim:/moduleName/d 1 0
+run
+force -freeze sim:/moduleName/a 0 0
+force -freeze sim:/moduleName/b 1 0
+force -freeze sim:/moduleName/c 1 0
+force -freeze sim:/moduleName/d 0 0
+run
+force -freeze sim:/moduleName/a 0 0
+force -freeze sim:/moduleName/b 1 0
+force -freeze sim:/moduleName/c 1 0
+force -freeze sim:/moduleName/d 1 0
+run
+force -freeze sim:/moduleName/a 1 0
+force -freeze sim:/moduleName/b 0 0
+force -freeze sim:/moduleName/c 0 0
+force -freeze sim:/moduleName/d 0 0
+run
+force -freeze sim:/moduleName/a 1 0
+force -freeze sim:/moduleName/b 0 0
+force -freeze sim:/moduleName/c 0 0
+force -freeze sim:/moduleName/d 1 0
+run
+force -freeze sim:/moduleName/a 1 0
+force -freeze sim:/moduleName/b 0 0
+force -freeze sim:/moduleName/c 1 0
+force -freeze sim:/moduleName/d 0 0
+run
+force -freeze sim:/moduleName/a 1 0
+force -freeze sim:/moduleName/b 0 0
+force -freeze sim:/moduleName/c 1 0
+force -freeze sim:/moduleName/d 1 0
+run
+force -freeze sim:/moduleName/a 1 0
+force -freeze sim:/moduleName/b 1 0
+force -freeze sim:/moduleName/c 0 0
+force -freeze sim:/moduleName/d 0 0
+run
+force -freeze sim:/moduleName/a 1 0
+force -freeze sim:/moduleName/b 1 0
+force -freeze sim:/moduleName/c 0 0
+force -freeze sim:/moduleName/d 1 0
+run
+force -freeze sim:/moduleName/a 1 0
+force -freeze sim:/moduleName/b 1 0
+force -freeze sim:/moduleName/c 1 0
+force -freeze sim:/moduleName/d 0 0
+run
+force -freeze sim:/moduleName/a 1 0
+force -freeze sim:/moduleName/b 1 0
+force -freeze sim:/moduleName/c 1 0
+force -freeze sim:/moduleName/d 1 0
+run
+# End time: 15:44:03 on Sep 27,2021, Elapsed time: 0:27:23
+# Errors: 0, Warnings: 5

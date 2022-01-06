@@ -1,0 +1,34 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vmultiplexer
+!s110 1632734762
+!i10b 1
+!s100 _l6d]8i3TO`XR:[`>4=?J3
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I=DT9P4AehFCiUUK[WLBTM3
+VDg1SIo80bB@j0V0VzS_@n1
+dD:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question3
+w1632734617
+8D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question3/multiplexerBehav.v
+FD:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question3/multiplexerBehav.v
+!i122 0
+L0 1 18
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1632734762.000000
+!s107 D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question3/multiplexerBehav.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question3/multiplexerBehav.v|
+!i113 1
+o-work work
+tCvgOpt 0

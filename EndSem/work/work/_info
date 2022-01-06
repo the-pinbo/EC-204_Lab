@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vseq_detector
+!s110 1639389851
+!i10b 1
+!s100 [I^^7II]K<zH1anOzH[J51
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IVL6XeF6Y:K0Dj_jB[LB>C2
+VDg1SIo80bB@j0V0VzS_@n1
+dD:/Documents/NIT-K/02_SecondYear/EC204/EndSem/work
+w1639389800
+8D:/Documents/NIT-K/02_SecondYear/EC204/EndSem/test.v
+FD:/Documents/NIT-K/02_SecondYear/EC204/EndSem/test.v
+!i122 0
+L0 3 44
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1639389851.000000
+!s107 D:/Documents/NIT-K/02_SecondYear/EC204/EndSem/test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/NIT-K/02_SecondYear/EC204/EndSem/test.v|
+!i113 1
+o-work work
+tCvgOpt 0

@@ -1,0 +1,17 @@
+# Compile of magComp.v was successful.
+# Compile of magComp_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.magComp_tb
+# vsim -gui work.magComp_tb 
+# Start time: 15:11:54 on Oct 18,2021
+# Loading work.magComp_tb
+# Loading work.magComp
+add wave -position insertpoint  \
+sim:/magComp_tb/In1 \
+sim:/magComp_tb/In2 \
+sim:/magComp_tb/Gt \
+sim:/magComp_tb/Lt \
+sim:/magComp_tb/Eq
+run
+# End time: 15:15:51 on Oct 18,2021, Elapsed time: 0:03:57
+# Errors: 0, Warnings: 3

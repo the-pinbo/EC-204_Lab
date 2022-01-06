@@ -1,0 +1,7 @@
+clock=1, data=0, twosC=0
+clock=1, data=1, twosC=1
+clock=1, data=0, twosC=1
+clock=1, data=1, twosC=0
+clock=1, data=0, twosC=1
+clock=1, data=0, twosC=0
+clock=1, data=0, twosC=0

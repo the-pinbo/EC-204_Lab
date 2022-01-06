@@ -1,0 +1,34 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vup_counter_nbit
+!s110 1637577038
+!i10b 1
+!s100 ]XFlRQz6S4a_[U>E3gdl52
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IFQb6dL]EEO^JFgGk9=F]Z2
+VDg1SIo80bB@j0V0VzS_@n1
+dD:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question3
+w1637576980
+8D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question3/question3.v
+FD:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question3/question3.v
+!i122 0
+L0 1 14
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1637577038.000000
+!s107 D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question3/question3.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question3/question3.v|
+!i113 1
+o-work work
+tCvgOpt 0

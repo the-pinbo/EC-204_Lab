@@ -1,0 +1,50 @@
+# Compile of question5.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ring_ctr
+# vsim -gui work.ring_ctr 
+# Start time: 19:23:17 on Nov 22,2021
+# Loading work.ring_ctr
+add wave -position insertpoint  \
+sim:/ring_ctr/clk \
+sim:/ring_ctr/i \
+sim:/ring_ctr/out \
+sim:/ring_ctr/rst_n \
+sim:/ring_ctr/WIDTH
+force -freeze sim:/ring_ctr/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/ring_ctr/rst_n 0 0
+run
+run
+run
+force -freeze sim:/ring_ctr/rst_n 1 0
+run
+run
+run
+run
+run
+run
+vsim -gui work.ring_counter
+# End time: 19:25:48 on Nov 22,2021, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 2
+# vsim -gui work.ring_counter 
+# Start time: 19:25:48 on Nov 22,2021
+# Loading work.ring_counter
+add wave -position insertpoint  \
+sim:/ring_counter/Clock \
+sim:/ring_counter/Count \
+sim:/ring_counter/Count_temp \
+sim:/ring_counter/Reset
+force -freeze sim:/ring_counter/Clock 1 0, 0 {50 ps} -r 100
+force -freeze sim:/ring_counter/Reset 1 0
+run
+run
+force -freeze sim:/ring_counter/Reset 0 0
+run
+run
+run
+run
+run
+run
+run
+# End time: 19:52:02 on Nov 22,2021, Elapsed time: 0:26:14
+# Errors: 0, Warnings: 1

@@ -1,0 +1,22 @@
+vsim -gui work.shift_reg
+# vsim -gui work.shift_reg 
+# Start time: 12:39:53 on Dec 13,2021
+# Loading work.shift_reg
+add wave -position insertpoint  \
+sim:/shift_reg/Clk \
+sim:/shift_reg/enable \
+sim:/shift_reg/in_bit \
+sim:/shift_reg/in_reg \
+sim:/shift_reg/k \
+sim:/shift_reg/n \
+sim:/shift_reg/out_reg \
+sim:/shift_reg/par_load
+force -freeze sim:/shift_reg/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/shift_reg/enable 1 0
+force -freeze sim:/shift_reg/in_bit 1 0
+run
+run
+run
+run
+# End time: 12:42:00 on Dec 13,2021, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 1

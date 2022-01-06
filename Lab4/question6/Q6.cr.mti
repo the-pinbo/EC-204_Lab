@@ -1,0 +1,8 @@
+D:/Documents/NIT-K/02_SecondYear/EC204/Lab4/question6/fun.v {1 {vlog -work work -stats=none D:/Documents/NIT-K/02_SecondYear/EC204/Lab4/question6/fun.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fun
+
+Top level modules:
+	fun
+
+} {} {}}

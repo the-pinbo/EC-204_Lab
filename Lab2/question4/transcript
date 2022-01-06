@@ -1,0 +1,70 @@
+# Error opening D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question4/four_bitAdder.v
+# Path name 'D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question4/four_bitAdder.v' doesn't exist.
+# Compile of fullAdder.v was successful.
+# Compile of adder4.v was successful.
+# 2 compiles, 1 failed with no errors.
+vsim -gui work.adder4
+# vsim -gui work.adder4 
+# Start time: 15:51:17 on Sep 27,2021
+# Loading work.adder4
+# ** Error: (vsim-7) Failed to open data file "D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question4/work/fullAdder/_primary.dat" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-3063) Port 'c' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /adder4/ufa1 File: D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question4/adder4.v Line: 5
+# Error loading design
+# End time: 15:51:17 on Sep 27,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 3
+# Compile of fullAdder.v was successful.
+# Compile of adder4.v was successful.
+# 2 compiles, 1 failed with no errors.
+vsim -gui work.adder4
+# vsim -gui work.adder4 
+# Start time: 15:53:36 on Sep 27,2021
+# Loading work.adder4
+# ** Error: (vsim-7) Failed to open data file "D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question4/work/fullAdder/_primary.dat" in read mode.
+# No such file or directory. (errno = ENOENT)
+add wave -position insertpoint  \
+sim:/adder4/A \
+sim:/adder4/B \
+sim:/adder4/Ci \
+sim:/adder4/S \
+sim:/adder4/Co \
+sim:/adder4/C
+force -freeze sim:/adder4/A 0000 0
+force -freeze sim:/adder4/B 0000 0
+force -freeze sim:/adder4/Ci 0 0
+run
+force -freeze sim:/adder4/A 0010 0
+force -freeze {sim:/adder4/A[3]} St0 0
+force -freeze {sim:/adder4/A[2]} St0 0
+force -freeze {sim:/adder4/A[1]} St1 0
+force -freeze {sim:/adder4/A[0]} St0 0
+force -freeze sim:/adder4/B 0110 0
+force -freeze sim:/adder4/Ci 0 0
+run
+force -freeze sim:/adder4/A 1111 0
+force -freeze sim:/adder4/B 0110 0
+run
+force -freeze sim:/adder4/Ci 1 0
+run
+force -freeze sim:/adder4/B 1111 0
+run
+force -freeze sim:/adder4/A 1000 0
+force -freeze sim:/adder4/B 0100 0
+force -freeze sim:/adder4/Ci 1 0
+run
+force -freeze sim:/adder4/A 0101 0
+force -freeze sim:/adder4/B 0000 0
+force -freeze sim:/adder4/Ci 1 0
+run
+force -freeze sim:/adder4/A 0001 0
+force -freeze sim:/adder4/B 1111 0
+force -freeze sim:/adder4/Ci 1 0
+run
+force -freeze sim:/adder4/A 0000 0
+force -freeze sim:/adder4/B 0000 0
+force -freeze sim:/adder4/Ci 1 0
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question4/wave.do
+# End time: 16:30:33 on Sep 27,2021, Elapsed time: 0:36:57
+# Errors: 1, Warnings: 2

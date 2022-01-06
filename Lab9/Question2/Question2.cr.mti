@@ -1,0 +1,9 @@
+D:/Documents/NIT-K/02_SecondYear/EC204/Lab9/Question2/question2.v {1 {vlog -work work -stats=none D:/Documents/NIT-K/02_SecondYear/EC204/Lab9/Question2/question2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_reg
+-- Compiling module serial_adder
+
+Top level modules:
+	serial_adder
+
+} {} {}}

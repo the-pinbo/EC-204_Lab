@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vmagComp
+Z0 !s110 1634550102
+!i10b 1
+!s100 5Z4;lFg[B`GKMf<A1Ekem3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IN_a2CYLF1U6D@Md66Ra8T2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Documents/NIT-K/02_SecondYear/EC204/Lab4/question8
+w1634523222
+8magComp.v
+FmagComp.v
+!i122 2
+L0 1 10
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1634550102.000000
+!s107 magComp.v|D:/Documents/NIT-K/02_SecondYear/EC204/Lab4/question8/magComp_tb.v|
+Z6 !s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/NIT-K/02_SecondYear/EC204/Lab4/question8/magComp_tb.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+nmag@comp
+vmagComp_tb
+R0
+!i10b 1
+!s100 R4]`jD>GJYI2c3cgkTgK50
+R1
+I;NiYL^Ahmnz61?CYQL0i:0
+R2
+R3
+w1634525450
+8D:/Documents/NIT-K/02_SecondYear/EC204/Lab4/question8/magComp_tb.v
+FD:/Documents/NIT-K/02_SecondYear/EC204/Lab4/question8/magComp_tb.v
+!i122 2
+L0 4 13
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 magComp.v|D:/Documents/NIT-K/02_SecondYear/EC204/Lab4/question8/magComp_tb.v|
+R6
+!i113 1
+R7
+R8
+nmag@comp_tb

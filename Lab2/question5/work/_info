@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vmoduleName
+!s110 1632735987
+!i10b 1
+!s100 _hX?ZQM5j00Ia`gCf1l8k3
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+Ik4binAcg8@>cBC4Y8H=VJ2
+VDg1SIo80bB@j0V0VzS_@n1
+dD:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question5
+w1632729074
+8D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question5/majorityFucntion.v
+FD:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question5/majorityFucntion.v
+!i122 0
+L0 1 25
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1632735987.000000
+!s107 D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question5/majorityFucntion.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question5/majorityFucntion.v|
+!i113 1
+o-work work
+tCvgOpt 0
+nmodule@name

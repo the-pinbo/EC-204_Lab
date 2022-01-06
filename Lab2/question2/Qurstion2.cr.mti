@@ -1,0 +1,23 @@
+D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/fullAdder_dataFlowModel.v {1 {vlog -work work -stats=none D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/fullAdder_dataFlowModel.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fullAdder
+
+Top level modules:
+	fullAdder
+
+} {} {}} D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/halfAdder.v {1 {vlog -work work -stats=none D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/halfAdder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module halfAdder
+
+Top level modules:
+	halfAdder
+
+} {} {}} D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/fullAdder_2Half.v {1 {vlog -work work -stats=none D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/fullAdder_2Half.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fullAdder2
+-- Compiling module halfAdder
+
+Top level modules:
+	fullAdder2
+
+} {} {}}

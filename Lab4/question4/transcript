@@ -1,0 +1,76 @@
+# Compile of alu.v was successful.
+vsim -gui work.alu
+# vsim -gui work.alu 
+# Start time: 15:54:35 on Oct 18,2021
+# Loading work.alu
+add wave -position insertpoint  \
+sim:/alu/A \
+sim:/alu/B \
+sim:/alu/Cin \
+sim:/alu/S \
+sim:/alu/Y \
+sim:/alu/O \
+sim:/alu/Cout
+force -freeze sim:/alu/S 00 0
+force -freeze sim:/alu/A 0001 0
+force -freeze sim:/alu/B 0001 0
+force -freeze sim:/alu/Cin 0 0
+run
+force -freeze sim:/alu/Cin 1 0
+run
+force -freeze sim:/alu/A 1000 0
+force -freeze sim:/alu/B 1000 0
+force -freeze sim:/alu/Cin 1 0
+run
+vsim -gui work.alu
+# End time: 16:03:18 on Oct 18,2021, Elapsed time: 0:08:43
+# Errors: 0, Warnings: 2
+# vsim -gui work.alu 
+# Start time: 16:03:18 on Oct 18,2021
+# Loading work.alu
+add wave -position insertpoint  \
+sim:/alu/A \
+sim:/alu/B \
+sim:/alu/Cin \
+sim:/alu/S \
+sim:/alu/Y
+add wave -position insertpoint  \
+sim:/alu/O
+force -freeze sim:/alu/S 01 0
+force -freeze sim:/alu/A 0001 0
+force -freeze sim:/alu/B 0001 0
+force -freeze sim:/alu/Cin 0 0
+run
+force -freeze sim:/alu/Cin St1 0
+run
+add wave -position insertpoint  \
+sim:/alu/Cout
+force -freeze sim:/alu/A 0010 0
+run
+force -freeze sim:/alu/B 0010 0
+run
+force -freeze sim:/alu/B 0100 0
+run
+force -freeze sim:/alu/Cin St0 0
+run
+force -freeze sim:/alu/S 10 0
+run
+force -freeze sim:/alu/A 0011 0
+force -freeze sim:/alu/B 0101 0
+run
+force -freeze sim:/alu/Cin St1 0
+run
+force -freeze sim:/alu/A 1111 0
+force -freeze sim:/alu/B 1111 0
+run
+force -freeze sim:/alu/S 11 0
+run
+force -freeze sim:/alu/Cin St0 0
+run
+force -freeze sim:/alu/B 0000 0
+run
+force -freeze sim:/alu/A 1010 0
+run
+quit
+# End time: 16:22:28 on Oct 18,2021, Elapsed time: 0:19:10
+# Errors: 0, Warnings: 1

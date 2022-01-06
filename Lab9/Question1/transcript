@@ -1,0 +1,28 @@
+vsim -gui work.twos_com_tb
+# vsim -gui work.twos_com_tb 
+# Start time: 12:38:31 on Dec 13,2021
+# Loading work.twos_com_tb
+# Loading work.twos_com
+add wave -position insertpoint  \
+sim:/twos_com_tb/clk \
+sim:/twos_com_tb/data \
+sim:/twos_com_tb/data_file_in \
+sim:/twos_com_tb/data_file_out \
+sim:/twos_com_tb/pout \
+sim:/twos_com_tb/reset_n \
+sim:/twos_com_tb/scan_file \
+sim:/twos_com_tb/start \
+sim:/twos_com_tb/t_PERIOD
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit
+# End time: 12:39:10 on Dec 13,2021, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 1

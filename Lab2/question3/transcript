@@ -1,0 +1,42 @@
+# Compile of multiplexerBehav.v was successful.
+vsim -gui work.multiplexer
+# vsim -gui work.multiplexer 
+# Start time: 14:56:37 on Sep 27,2021
+# Loading work.multiplexer
+add wave -position insertpoint  \
+sim:/multiplexer/x1 \
+sim:/multiplexer/x2 \
+sim:/multiplexer/s \
+sim:/multiplexer/f
+force -freeze sim:/multiplexer/x1 0 0
+force -freeze sim:/multiplexer/x2 0 0
+force -freeze sim:/multiplexer/s 0 0
+run
+force -freeze sim:/multiplexer/x1 0 0
+force -freeze sim:/multiplexer/x2 0 0
+force -freeze sim:/multiplexer/s 1 0
+run
+force -freeze sim:/multiplexer/x1 0 0
+force -freeze sim:/multiplexer/x2 1 0
+force -freeze sim:/multiplexer/s 0 0
+run
+force -freeze sim:/multiplexer/s 1 0
+run
+force -freeze sim:/multiplexer/x1 1 0
+force -freeze sim:/multiplexer/x2 0 0
+force -freeze sim:/multiplexer/s 0 0
+run
+force -freeze sim:/multiplexer/s 1 0
+run
+force -freeze sim:/multiplexer/x1 1 0
+force -freeze sim:/multiplexer/x2 1 0
+force -freeze sim:/multiplexer/s 0 0
+run
+force -freeze sim:/multiplexer/x1 1 0
+force -freeze sim:/multiplexer/x2 1 0
+force -freeze sim:/multiplexer/s 1 0
+run
+run
+run
+# End time: 15:15:47 on Sep 27,2021, Elapsed time: 0:19:10
+# Errors: 0, Warnings: 5

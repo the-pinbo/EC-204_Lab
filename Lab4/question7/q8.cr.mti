@@ -1,0 +1,16 @@
+D:/Documents/NIT-K/02_SecondYear/EC204/Lab4/question8/magComp_tb.v {1 {vlog -work work -stats=none D:/Documents/NIT-K/02_SecondYear/EC204/Lab4/question8/magComp_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module magComp
+-- Compiling module magComp_tb
+
+Top level modules:
+	magComp_tb
+
+} {} {}} D:/Documents/NIT-K/02_SecondYear/EC204/Lab4/question8/magComp.v {1 {vlog -work work -stats=none D:/Documents/NIT-K/02_SecondYear/EC204/Lab4/question8/magComp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module magComp
+
+Top level modules:
+	magComp
+
+} {} {}}

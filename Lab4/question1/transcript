@@ -1,0 +1,73 @@
+# Compile of dec2to4.v was successful.
+# Compile of dec2to4_case.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.dec2to4
+# vsim -gui work.dec2to4 
+# Start time: 08:18:34 on Oct 18,2021
+# Loading work.dec2to4
+run
+run
+force -freeze sim:/dec2to4/a 00 0
+force -freeze sim:/dec2to4/En 0 0
+force -freeze sim:/dec2to4/Y 0000 0
+add wave -position insertpoint  \
+sim:/dec2to4/a \
+sim:/dec2to4/En \
+sim:/dec2to4/Y
+run
+force -freeze sim:/dec2to4/En 1 0
+run
+force -freeze sim:/dec2to4/a 01 0
+run
+force -freeze sim:/dec2to4/a 11 0
+run
+vsim -gui work.dec2to4_case
+# End time: 08:27:40 on Oct 18,2021, Elapsed time: 0:09:06
+# Errors: 0, Warnings: 5
+# vsim -gui work.dec2to4_case 
+# Start time: 08:27:40 on Oct 18,2021
+# Loading work.dec2to4_case
+add wave -position insertpoint  \
+sim:/dec2to4_case/W \
+sim:/dec2to4_case/En \
+sim:/dec2to4_case/Y
+force -freeze sim:/dec2to4_case/W 00 0
+force -freeze sim:/dec2to4_case/En 0 0
+run
+force -freeze sim:/dec2to4_case/W 00 0
+force -freeze sim:/dec2to4_case/En 1 0
+run
+# Can't move the Now cursor.
+force -freeze sim:/dec2to4_case/W 01 0
+run
+force -freeze sim:/dec2to4_case/W 10 0
+run
+force -freeze sim:/dec2to4_case/W 11 0
+run
+# Compile of dec2to4.v was successful.
+# Compile of dec2to4_case.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.dec2to4
+# End time: 08:42:59 on Oct 18,2021, Elapsed time: 0:15:19
+# Errors: 0, Warnings: 2
+# vsim -gui work.dec2to4 
+# Start time: 08:42:59 on Oct 18,2021
+# Loading work.dec2to4
+add wave -position insertpoint  \
+sim:/dec2to4/a \
+sim:/dec2to4/En \
+sim:/dec2to4/Y
+force -freeze sim:/dec2to4/a 00 0
+force -freeze sim:/dec2to4/En 0 0
+run
+force -freeze sim:/dec2to4/a 00 0
+force -freeze sim:/dec2to4/En 1 0
+run
+force -freeze sim:/dec2to4/a 01 0
+run
+force -freeze sim:/dec2to4/a 11 0
+run
+force -freeze sim:/dec2to4/a 10 0
+run
+# End time: 08:51:08 on Oct 18,2021, Elapsed time: 0:08:09
+# Errors: 0, Warnings: 1

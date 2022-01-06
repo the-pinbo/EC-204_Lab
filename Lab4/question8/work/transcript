@@ -1,0 +1,17 @@
+# Compile of zero_count_beg.v was successful.
+vsim -gui work.zero_count_beg
+# vsim -gui work.zero_count_beg 
+# Start time: 15:20:02 on Oct 18,2021
+# Loading work.zero_count_beg
+add wave -position insertpoint  \
+sim:/zero_count_beg/A \
+sim:/zero_count_beg/zeros \
+sim:/zero_count_beg/i
+force -freeze sim:/zero_count_beg/A 00010101 0
+run
+force -freeze sim:/zero_count_beg/A 10100000 0
+run
+force -freeze sim:/zero_count_beg/A 10100010 0
+run
+# End time: 15:28:06 on Oct 18,2021, Elapsed time: 0:08:04
+# Errors: 0, Warnings: 8

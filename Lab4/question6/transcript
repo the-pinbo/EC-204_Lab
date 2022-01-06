@@ -1,0 +1,70 @@
+# Compile of fun.v was successful.
+vsim -gui work.fun
+# vsim -gui work.fun 
+# Start time: 15:28:44 on Oct 18,2021
+# Loading work.fun
+add wave -position insertpoint  \
+sim:/fun/A \
+sim:/fun/B \
+sim:/fun/C \
+sim:/fun/D \
+sim:/fun/E \
+sim:/fun/F
+add wave -position insertpoint  \
+sim:/fun/A \
+sim:/fun/B \
+sim:/fun/C \
+sim:/fun/D \
+sim:/fun/E \
+sim:/fun/F
+vsim -gui work.fun
+# End time: 15:29:24 on Oct 18,2021, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 2
+# vsim -gui work.fun 
+# Start time: 15:29:24 on Oct 18,2021
+# Loading work.fun
+add wave -position insertpoint  \
+sim:/fun/A \
+sim:/fun/B \
+sim:/fun/C \
+sim:/fun/D \
+sim:/fun/E \
+sim:/fun/F
+force -freeze sim:/fun/A 0 0
+force -freeze sim:/fun/B 0 0
+force -freeze sim:/fun/C 0 0
+force -freeze sim:/fun/D 0 0
+force -freeze sim:/fun/E 0 0
+run
+force -freeze sim:/fun/D St1 0
+run
+force -freeze sim:/fun/E St1 0
+run
+force -freeze sim:/fun/C St1 0
+force -freeze sim:/fun/D St0 0
+force -freeze sim:/fun/E St0 0
+run
+force -freeze sim:/fun/A St0 0
+force -freeze sim:/fun/B St1 0
+force -freeze sim:/fun/C St0 0
+force -freeze sim:/fun/D St0 0
+force -freeze sim:/fun/E St0 0
+run
+force -freeze sim:/fun/A St1 0
+force -freeze sim:/fun/B St0 0
+force -freeze sim:/fun/C St1 0
+force -freeze sim:/fun/D St1 0
+force -freeze sim:/fun/E St1 0
+run
+force -freeze sim:/fun/D St0 0
+force -freeze sim:/fun/E St0 0
+run
+force -freeze sim:/fun/E St1 0
+run
+force -freeze sim:/fun/D St1 0
+force -freeze sim:/fun/E St0 0
+restart
+run
+quit
+# End time: 15:52:13 on Oct 18,2021, Elapsed time: 0:22:49
+# Errors: 0, Warnings: 1

@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vserial_adder
+Z0 !s110 1638780214
+!i10b 1
+!s100 XeX<1Y3ePPL`[<NXim0L>1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IeVTiG]`1F2T6F]g:XMYZ41
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Documents/NIT-K/02_SecondYear/EC204/Lab9/Question2
+Z4 w1638780089
+Z5 8D:/Documents/NIT-K/02_SecondYear/EC204/Lab9/Question2/question2.v
+Z6 FD:/Documents/NIT-K/02_SecondYear/EC204/Lab9/Question2/question2.v
+!i122 0
+L0 18 40
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1638780213.000000
+!s107 D:/Documents/NIT-K/02_SecondYear/EC204/Lab9/Question2/question2.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/NIT-K/02_SecondYear/EC204/Lab9/Question2/question2.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vshift_reg
+R0
+!i10b 1
+!s100 dnmL?NVD:EV0nVZ`_?fam3
+R1
+Ia2[`;?DIk[9caVHk<4Ve]0
+R2
+R3
+R4
+R5
+R6
+!i122 0
+L0 1 16
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 D:/Documents/NIT-K/02_SecondYear/EC204/Lab9/Question2/question2.v|
+R9
+!i113 1
+R10
+R11

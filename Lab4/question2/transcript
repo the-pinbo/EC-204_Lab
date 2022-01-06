@@ -1,0 +1,29 @@
+vsim -gui work.mux16_1
+# vsim -gui work.mux16_1 
+# Start time: 16:24:02 on Oct 18,2021
+# Loading work.mux16_1
+add wave -position insertpoint  \
+sim:/mux16_1/I \
+sim:/mux16_1/S \
+sim:/mux16_1/Y
+force -freeze sim:/mux16_1/I 001010100 0
+force -freeze sim:/mux16_1/S 0001 0
+run
+force -freeze sim:/mux16_1/S 0010 0
+run
+force -freeze sim:/mux16_1/S 0100 0
+run
+force -freeze sim:/mux16_1/S 1000 0
+run
+force -freeze sim:/mux16_1/S 1001 0
+run
+force -freeze {sim:/mux16_1/I[9]} St1 0
+run
+force -freeze {sim:/mux16_1/I[12]} St1 0
+force -freeze sim:/mux16_1/S 1100 0
+run
+force -freeze {sim:/mux16_1/I[10]} St1 0
+force -freeze sim:/mux16_1/S 0110 0
+run
+# End time: 16:36:13 on Oct 18,2021, Elapsed time: 0:12:11
+# Errors: 0, Warnings: 1

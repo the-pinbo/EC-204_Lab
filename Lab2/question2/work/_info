@@ -1,0 +1,84 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vfullAdder
+Z0 !s110 1632740489
+!i10b 1
+!s100 EHEQ90jE<g4LRBcmEz]NY1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IeRJZ>:WHe3;Sz_n1BX1Rj1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2
+w1632733171
+8D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/fullAdder_dataFlowModel.v
+FD:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/fullAdder_dataFlowModel.v
+!i122 7
+Z4 L0 1 5
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1632740489.000000
+!s107 D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/fullAdder_dataFlowModel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/fullAdder_dataFlowModel.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+nfull@adder
+vfullAdder2
+!s110 1632740690
+!i10b 1
+!s100 Q5Snb]B0UQNh^eGd^OkSk1
+R1
+Ie8WLCf8T?l5=H^d7FfDZ[0
+R2
+R3
+w1632739454
+8D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/fullAdder_2Half.v
+FD:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/fullAdder_2Half.v
+FhalfAdder.v
+!i122 9
+L0 1 11
+R5
+r1
+!s85 0
+31
+!s108 1632740690.000000
+!s107 halfAdder.v|D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/fullAdder_2Half.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/fullAdder_2Half.v|
+!i113 1
+R7
+R8
+nfull@adder2
+vhalfAdder
+R0
+!i10b 1
+!s100 gJI1dF139m6Ccf64Vz?go2
+R1
+II=QRHbCSncNPQh>nbThNb0
+R2
+R3
+w1632716003
+8D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/halfAdder.v
+FD:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/halfAdder.v
+!i122 8
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/halfAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question2/halfAdder.v|
+!i113 1
+R7
+R8
+nhalf@adder

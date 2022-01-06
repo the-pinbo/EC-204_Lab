@@ -1,0 +1,24 @@
+D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question4/fullAdder.v {1 {vlog -work work -stats=none D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question4/fullAdder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fullAdder
+
+Top level modules:
+	fullAdder
+
+} {} {}} D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question4/adder4.v {1 {vlog -work work -stats=none D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question4/adder4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder4
+-- Compiling module fullAdder
+
+Top level modules:
+	adder4
+
+} {} {}} D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question4/four_bitAdder.v {1 {vlog -work work -stats=none D:/Documents/NIT-K/02_SecondYear/EC204/Lab2/question4/four_bitAdder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder4
+-- Compiling module fullAdder
+
+Top level modules:
+	adder4
+
+} {} {}}

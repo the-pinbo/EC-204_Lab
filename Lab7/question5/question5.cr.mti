@@ -1,0 +1,15 @@
+D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question5/question5.v {1 {vlog -work work -stats=none D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question5/question5.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ring_ctr
+
+Top level modules:
+	ring_ctr
+
+} {} {}} D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question5/test.v {1 {vlog -work work -stats=none D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question5/test.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ring_counter
+
+Top level modules:
+	ring_counter
+
+} {} {}}

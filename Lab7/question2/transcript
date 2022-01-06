@@ -1,0 +1,45 @@
+# Compile of question2.v was successful.
+# Compile of decadeUpDown.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.decimalUpDown
+# vsim -gui work.decimalUpDown 
+# Start time: 15:54:37 on Nov 22,2021
+# Loading work.decimalUpDown
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'count'.
+#    Time: 0 ps  Iteration: 0  Instance: /decimalUpDown/counter0 File: D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question2/question2.v Line: 12
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'count'.
+#    Time: 0 ps  Iteration: 0  Instance: /decimalUpDown/counter1 File: D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question2/question2.v Line: 13
+# Error loading design
+# End time: 15:54:37 on Nov 22,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 3
+vsim -gui work.decimalUpDown
+# vsim -gui work.decimalUpDown 
+# Start time: 15:54:49 on Nov 22,2021
+# Loading work.decimalUpDown
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'count'.
+#    Time: 0 ps  Iteration: 0  Instance: /decimalUpDown/counter0 File: D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question2/question2.v Line: 12
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'count'.
+#    Time: 0 ps  Iteration: 0  Instance: /decimalUpDown/counter1 File: D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question2/question2.v Line: 13
+# Error loading design
+# End time: 15:54:49 on Nov 22,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# Compile of question2.v was successful.
+# Compile of decadeUpDown.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.decimalUpDown
+# vsim -gui work.decimalUpDown 
+# Start time: 15:55:17 on Nov 22,2021
+# Loading work.decimalUpDown
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'count'.
+#    Time: 0 ps  Iteration: 0  Instance: /decimalUpDown/counter0 File: D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question2/question2.v Line: 12
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'count'.
+#    Time: 0 ps  Iteration: 0  Instance: /decimalUpDown/counter1 File: D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question2/question2.v Line: 13
+# Error loading design
+# End time: 15:55:18 on Nov 22,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 2
+vsim -gui work.decadeUpDown
+# vsim -gui work.decadeUpDown 
+# Start time: 15:55:24 on Nov 22,2021
+# Loading work.decadeUpDown
+# End time: 15:58:05 on Nov 22,2021, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 1

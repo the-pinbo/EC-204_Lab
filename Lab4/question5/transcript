@@ -1,0 +1,21 @@
+# Compile of ones_count.v was successful.
+vsim -gui work.ones_count
+# vsim -gui work.ones_count 
+# Start time: 16:37:03 on Oct 18,2021
+# Loading work.ones_count
+add wave -position insertpoint  \
+sim:/ones_count/A \
+sim:/ones_count/i \
+sim:/ones_count/ones
+force -freeze sim:/ones_count/A 0010 0
+run
+force -freeze sim:/ones_count/A 00000000000000000001100000000010 0
+run
+force -freeze sim:/ones_count/A 00000011000000000001100000000010 0
+run
+force -freeze sim:/ones_count/A 00000011001100000001100000000010 0
+run
+force -freeze sim:/ones_count/A 0 0
+run
+# End time: 16:46:14 on Oct 18,2021, Elapsed time: 0:09:11
+# Errors: 0, Warnings: 2

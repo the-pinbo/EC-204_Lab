@@ -1,0 +1,64 @@
+# Compile of question1.v was successful.
+vsim -gui work.decadeUpDown
+# vsim -gui work.decadeUpDown 
+# Start time: 16:23:08 on Nov 22,2021
+# Loading work.decadeUpDown
+add wave -position insertpoint  \
+sim:/decadeUpDown/clk \
+sim:/decadeUpDown/count \
+sim:/decadeUpDown/count_up \
+sim:/decadeUpDown/counter_on \
+sim:/decadeUpDown/data_in \
+sim:/decadeUpDown/load \
+sim:/decadeUpDown/reset \
+sim:/decadeUpDown/TC
+force -freeze sim:/decadeUpDown/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/decadeUpDown/count_up 1 0
+force -freeze sim:/decadeUpDown/counter_on 1 0
+force -freeze sim:/decadeUpDown/data_in 0000 0
+force -freeze sim:/decadeUpDown/load 1 0
+force -freeze sim:/decadeUpDown/reset 0 0
+run
+run
+force -freeze sim:/decadeUpDown/load 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/decadeUpDown/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/decadeUpDown/reset 1 0
+force -freeze sim:/decadeUpDown/counter_on 1 0
+force -freeze sim:/decadeUpDown/count_up 0 0
+force -freeze sim:/decadeUpDown/load 1 0
+force -freeze sim:/decadeUpDown/data_in 0000 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+force -freeze sim:/decadeUpDown/load 0 0
+force -freeze sim:/decadeUpDown/reset 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 16:57:38 on Nov 22,2021, Elapsed time: 0:34:30
+# Errors: 0, Warnings: 1
+# Closing project D:/Documents/NIT-K/02_SecondYear/EC204/Lab7/question1/Question1.mpf
